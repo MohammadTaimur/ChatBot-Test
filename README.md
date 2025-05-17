@@ -1,10 +1,10 @@
-PDF ChatBot (FastAPI + Streamlit + Groq)
+PDF ChatBot (FastAPI + Streamlit + Groq)<br>
 This project allows users to upload a PDF, and then ask context-based questions about the content. It uses:
-🧠 Groq LLM (llama3-8b-8192)
-⚡ FastAPI (for backend/API)
-🖼️ Streamlit (for frontend)
-🔍 ChromaDB (for vector search)
-📄 PDFPlumber (to extract text from PDFs)
+- 🧠 Groq LLM (llama3-8b-8192)
+- ⚡ FastAPI (for backend/API)
+- 🖼️ Streamlit (for frontend)
+- 🔍 ChromaDB (for vector search)
+- 📄 PDFPlumber (to extract text from PDFs)
 
 Features:
 - Upload a PDF file
@@ -17,15 +17,15 @@ Docker installed on your system
 A .env file with your Groq API key
 
 Folder Structure:
-
-├── backend/
-│   ├── main.py
-│   ├── utils.py
-│   ├── chromaDatabaseFunctions.py
-├── frontend/
-│   └── streamlit_app.py
-├── requirements.txt
-├── Dockerfile
+<br>
+├── backend/<br>
+│   ├── main.py<br>
+│   ├── utils.py<br>
+│   ├── chromaDatabaseFunctions.py<br>
+├── frontend/<br>
+│   └── streamlit_app.py<br>
+├── requirements.txt<br>
+├── Dockerfile<br>
 └── .env        👈 NOT included in repo (you must create this)
 
 Step by Step Setup:
